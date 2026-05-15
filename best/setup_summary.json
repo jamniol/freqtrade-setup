@@ -1,0 +1,42 @@
+{
+    "timerange":  "20251028-20260515",
+    "epochs":  5000,
+    "pairs":  [
+                  "BTC/USDT",
+                  "ETH/USDT"
+              ],
+    "params":  {
+                   "trailing_only_offset_is_reached":  false,
+                   "trailing_stop_positive_offset":  0.048,
+                   "sell_rsi":  50,
+                   "trailing_stop_positive":  0.045,
+                   "exit_short_rsi":  30,
+                   "buy_rsi":  43,
+                   "short_rsi":  97,
+                   "minimal_roi":  {
+                                       "236":  0.183,
+                                       "1740":  0,
+                                       "937":  0.062,
+                                       "0":  0.624
+                                   },
+                   "stoploss":  -0.088,
+                   "trailing_stop":  true
+               },
+    "setup_name":  "SampleStrategy_H1_Best",
+    "best_epoch":  4872,
+    "metrics":  {
+                    "sharpe":  2.83,
+                    "avg_profit_pct":  0.25,
+                    "max_drawdown_pct":  11.1,
+                    "total_trades":  112,
+                    "drawdown_duration_days":  13,
+                    "total_profit_usdt":  92.697,
+                    "calmar":  30.2,
+                    "sortino":  2.94,
+                    "avg_duration":  "1 day, 9:19:00",
+                    "win_rate":  87.5,
+                    "total_profit_pct":  9.27,
+                    "profit_factor":  2.36
+                },
+    "timeframe":  "1h"
+}

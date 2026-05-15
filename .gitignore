@@ -1,0 +1,9 @@
+*.feather
+*.fthypt
+*.sqlite
+*.db
+__pycache__/
+*.pyc
+*.log
+data/
+logs/
